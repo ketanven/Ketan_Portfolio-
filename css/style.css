@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Bootlitrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -8433,6 +8433,7 @@ h1, h2, h3, h4, h5,
     z-index: 0;
     top: -70px; }
     .owl-carousel.home-slider .slider-item {
+      
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -8440,6 +8441,7 @@ h1, h2, h3, h4, h5,
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
+        
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
@@ -8454,6 +8456,19 @@ h1, h2, h3, h4, h5,
         height: 750px;
         z-index: 0; }
         @media (max-width: 991.98px) {
+          .owl-carousel.home-slider .slider-item {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 750px;
+            position: relative;
+            z-index: 0; }
+          .owl-carousel.home-slider {
+            
+    position: relative;
+    height: 701px;
+    z-index: 0;
+    top: -136px;  }
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
@@ -9071,7 +9086,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 1em 0; } }
+      padding: 0em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9685,3 +9700,6 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
